@@ -13,6 +13,9 @@ public class CarroTeste {
         System.out.println("Velocidade atual do Civic é " + civic.velocidadeAtual + " km/h");
         System.out.println("Velocidade atual da Ferrari é " + ferrari.velocidadeAtual + " km/h");
 
+        ferrari.ligarTurbo();
+        ferrari.ligarAr();
+
         civic.acelerar();
         ferrari.acelerar();
 
@@ -28,9 +31,13 @@ public class CarroTeste {
         civic.frear();
         ferrari.frear();
 
+        ferrari.desligarAr();
+        ferrari.desligarTurbo();
+
         System.out.println("Velocidade atual do Civic é " + civic.velocidadeAtual + " km/h");
         System.out.println("Velocidade atual da Ferrari é " + ferrari.velocidadeAtual + " km/h");
 
+        System.out.println(ferrari.velocidadeDoAr());
     }
 
 }
