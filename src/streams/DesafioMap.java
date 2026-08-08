@@ -23,7 +23,7 @@ public class DesafioMap {
                 s -> new StringBuilder(s).reverse().toString();
         Function<String, Integer> binarioParaInt =
                 s -> Integer.parseInt(s, 2); // passando o 2, ele entende que é binario string
-        
+
         nums.stream()
                 .map(Integer::toBinaryString)
                 .map(inverter)
