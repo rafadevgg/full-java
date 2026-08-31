@@ -19,8 +19,6 @@ public class Observer {
         botao.addActionListener(e -> System.out.println("Evento ocorreu!"));
         // ActionListener -> interface funcional, assim possibilitando fazer uma lambda expression...
 
-        janela.add
-
     }
 
 }
