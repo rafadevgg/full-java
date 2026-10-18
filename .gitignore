@@ -4,6 +4,9 @@ bin/
 out/
 target/
 
+# Configuração local do banco de dados
+src/connection.properties
+
 # IntelliJ
 .idea/
 *.iml
